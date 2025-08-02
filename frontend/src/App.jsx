@@ -1,12 +1,12 @@
-
+import {Routes,Route} from 'react-router-dom';
+import CreateProject from './pages/CreateProject';
+import Router from './Routes';
 
 function App() {
   
 
   return (
-    <>
-      <h1>Welcome to My App</h1>
-    </>
+  <Router/>
   )
 }
 
